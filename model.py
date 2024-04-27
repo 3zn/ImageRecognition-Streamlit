@@ -5,7 +5,7 @@ import torch.nn.functional as F
 from torchvision import models, transforms
 from PIL import Image
 
-pth_path = "/content/drive/MyDrive/python_tips/streamlit/text/ai_webapp/section_4/model_cnn.pth"
+pth_path = "model_cnn.pth"
 
 classes_ja = ["飛行機", "自動車", "鳥", "猫", "鹿", "犬", "カエル", "馬", "船", "トラック"]
 classes_en = ["airplane", "automobile", "bird", "cat", "deer", "dog", "frog", "horse", "ship", "truck"]
